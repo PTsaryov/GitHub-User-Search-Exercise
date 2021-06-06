@@ -4,8 +4,19 @@
 <head>
     <meta charset="utf-8" />
     <title></title>
+    <link href="Style.css" rel="stylesheet" />
 </head>
 <body>
+    <h1>Searching Github Users</h1>
+    <form>
+        Search User: <input type="text" size="30" id="usersearchbox" required/>
+        <button type="button" id="searchbutton" onclick=GetUsers()>Search</button>
 
+        <ul id="userlist"></ul>
+
+
+    </form>
+
+    <script src="javascript.js"></script>
 </body>
 </html>
